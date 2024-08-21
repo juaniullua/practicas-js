@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+}
+.contenedor-reloj{
+    border: 1px solid #f00;
+    background-color: #000;
+    width: 400px;
+    height: 200px;
+    margin:200px auto;
+    display: flex;
+    color:#fff;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    gap: 10px;
+}
+.contenedor-reloj-input{
+    border: 1px solid #f00;
+    background-color: #000;
+    width: 400px;
+    height: 200px;
+    margin:200px auto;
+    color:#fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.form{
+    width:100%;
+}
+.contenedor-reloj-input .input-horas,.input-minutos,.input-segundos{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    background-color: inherit;
+    border-style: none;
+    color: white;
+}
+.contenedor-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.boton{
+    width: 150px;
+    height: 50px;
+    background-color: red;  
+}
